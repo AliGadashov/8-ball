@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>8 Ball</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div id="gameScreen" class="gameScreen table">
+        <img class="ball" id="top" src="img/8ball.jpg" alt="ball" />
+      </div>
+      <div class="buttonsTop">
+        <button onclick="ref1.vertical('up')">
+          <img src="img/arrowUp.jpg" alt="arrowUp" />
+        </button>
+      </div>
+      <div class="buttonsCenter">
+        <button onclick="ref1.scale('in')">
+          <img src="img/zoomIn.jpg" alt="zoomIn" />
+        </button>
+        <button onclick="ref1.scale('out')">
+          <img src="img/zoomOut.jpg" alt="zoomOut" />
+        </button>
+        <button onclick="ref1.horizontal('left')">
+          <img src="img/arrowLeft.jpg" alt="arrowLeft" />
+        </button>
+        <button onclick="reset()">
+          <img src="img/reset.jpg" alt="reset" />
+        </button>
+        <button onclick="ref1.horizontal('right')">
+          <img src="img/arrowRight.jpg" alt="arrowRight" />
+        </button>
+        <button onclick="ref1.rotate('left')">
+          <img src="img/rotateLeft.jpg" alt="rotateLeft" />
+        </button>
+        <button onclick="ref1.rotate('right')">
+          <img src="img/rotateRight.jpg" alt="rotateRight" />
+        </button>
+      </div>
+      <div class="buttonsDown">
+        <button onclick="ref1.vertical('down')">
+          <img src="img/arrowDown.jpg" alt="arrowDown" />
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>

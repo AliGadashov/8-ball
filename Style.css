@@ -1,0 +1,83 @@
+    body {
+      display: flex;
+      justify-content: center;
+      background-color: burlywood;
+    }
+    
+    .main button{
+        margin: 0px;
+        padding: 0px;
+        width: 100px;
+        height: 100px;
+        border: none;
+        border-radius: 50%;
+    }
+
+    .main button img {
+        margin: 0px;
+        padding: 0px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .gameScreen {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .table {
+      background-color: rgb(39, 104, 26);
+      width: 800px;
+      height: 400px;
+      border: 20px solid rgb(65, 42, 9);
+      border-radius: 75px;
+    }
+
+    .ball {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    .buttonsTop {
+      padding-top: 50px;
+    }
+
+    .buttonsCenter {
+      padding: 25px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .buttonsDown {
+      padding-bottom: 50px;
+    }
+
+    .buttonsDown,
+    .buttonsTop {
+      display: flex;
+      justify-content: center;
+    }
+
+    
+
+    input[type="file"] {
+      display: none;
+    }
+    label{
+      color: white;
+      height: 60px;
+      width: 250px;
+      background-color: chocolate;
+      position: absolute;
+      margin: auto;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
